@@ -70,7 +70,7 @@ span{
 .slot{
     /* width: 15rem;
     height: 10rem; */
-    background-color: #7d8be4;
+    background-color: #c7cbe0;
     border-radius: 1.5rem;
     
     /* padding: 1rem; */
@@ -85,7 +85,7 @@ span{
 }
 
 .slot[data-swapy-highlighted] {
-    background-color: #7d8be4;
+    background-color: #dcdff1;
 }
 
 @keyframes rotate {
@@ -133,6 +133,7 @@ span{
       );
     animation: rotate 3s linear infinite;
     border-radius: 1.3rem;
+    transition: .6s;
 }
 
 .item[data-swapy-dragging]::before{
