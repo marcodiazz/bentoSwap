@@ -5,7 +5,8 @@
 
   color-scheme: light dark;
   color: white;
-  background-color: #131d2f;
+  /* background-color: #131d2f; */
+  background: linear-gradient(0deg, #162238 60%, #152d58 100% );
 
   box-sizing: border-box;
   margin: 0;
