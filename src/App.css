@@ -105,7 +105,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-color: #232a50;
     /* backdrop-filter: blur(1rem); */
     font-size: 2rem;
     color: white;
@@ -126,7 +126,7 @@ span{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
+    width: 99%;
     height: 100%;
     z-index: -1;
     background: conic-gradient(from var(--angle),
@@ -164,7 +164,7 @@ span{
   }
 
   .item[data-swapy-dragging] > div {
-    width: 98%;
-    height: 98%;
-    border-radius: 1.3rem !important;
+    width: 96%;
+    height: 96%;
+    border-radius: 1.5rem !important;
   }
